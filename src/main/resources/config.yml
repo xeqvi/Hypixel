@@ -8,10 +8,11 @@ database:
     username: u4_zm0A49QVDn
     password: "X3k1EhDa+sXNEoLPiKzSATYR"
 
-server-name: "mini01L"
+server-name: "L1F"
 
 lobby-servers:
-  - "mini01L"
+  - "L1F"
+  - "L2F"
 
 spawn:
   world: "world"

@@ -28,11 +28,13 @@ public class PlayerListener implements Listener {
 
     @EventHandler(priority = EventPriority.MONITOR)
     public void onJoin(PlayerJoinEvent event) {
+        event.setJoinMessage(null);
         playerDataManager.handleJoin(event.getPlayer());
     }
 
     @EventHandler(priority = EventPriority.MONITOR)
     public void onQuit(PlayerQuitEvent event) {
+        event.setQuitMessage(null);
         playerDataManager.handleQuit(event.getPlayer());
     }
 }
