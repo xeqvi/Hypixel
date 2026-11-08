@@ -1,12 +1,12 @@
 # Configuration
 database:
-  type: sqlite
+  type: mysql
   mysql:
-    host: localhost
+    host: 172.18.0.1
     port: 3306
-    database: hypixel
-    username: root
-    password: "root"
+    database: s4_test
+    username: u4_zm0A49QVDn
+    password: "X3k1EhDa+sXNEoLPiKzSATYR"
 
 server-name: "mini01L"
 

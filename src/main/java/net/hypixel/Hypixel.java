@@ -1,6 +1,7 @@
 package net.hypixel;
 
 import net.hypixel.commands.LobbyCommand;
+import net.hypixel.commands.SetSpawnCommand;
 import net.hypixel.commands.SpawnCommand;
 import net.hypixel.commands.StuckCommand;
 import net.hypixel.database.DatabaseManager;
@@ -31,7 +32,7 @@ public class Hypixel extends JavaPlugin {
 
             playerDataManager = new PlayerDataManager(this, databaseManager);
             getServer().getPluginManager().registerEvents(
-                    new PlayerListener(playerDataManager), this
+                    new PlayerListener(playerDataManager, spawnManager), this
             );
             getServer().getMessenger().registerOutgoingPluginChannel(
                     this, "BungeeCord"
@@ -43,6 +44,7 @@ public class Hypixel extends JavaPlugin {
             getCommand("spawn").setExecutor(new SpawnCommand(this));
             getCommand("lobby").setExecutor(new LobbyCommand(this));
             getCommand("stuck").setExecutor(new StuckCommand(this));
+            getCommand("setspawn").setExecutor(new SetSpawnCommand(this));
 
             playerDataManager.startAutoSave();
 

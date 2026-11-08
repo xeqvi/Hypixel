@@ -11,3 +11,9 @@ commands:
 
   stuck:
     description: Teleport to the current world's spawn.
+
+  setspawn:
+    description: Sets the server spawn to your current location.
+    usage: /setspawn
+    permission: hypixel.setspawn
+    permission-message: You do not have permission to use this command.
