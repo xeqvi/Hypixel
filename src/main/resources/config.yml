@@ -1,3 +1,4 @@
+# Configuration
 database:
   type: sqlite
   mysql:
@@ -6,3 +7,11 @@ database:
     database: hypixel
     username: root
     password: "root"
+
+server-name: "mini01L"
+
+lobby-servers:
+  - "mini01L"
+
+spawn:
+  world: "world"

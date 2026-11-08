@@ -2,3 +2,12 @@ main: net.hypixel.Hypixel
 name: Hypixel
 version: 1.0
 author: xeqvi
+commands:
+  spawn:
+    description: Teleport to a random lobby.
+
+  lobby:
+    description: Connect to a random lobby.
+
+  stuck:
+    description: Teleport to the current world's spawn.

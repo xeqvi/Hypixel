@@ -6,7 +6,7 @@
 
     <groupId>net.hypixel</groupId>
     <artifactId>Hypixel</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>Hypixel</name>
     <description>Hypixel Remake Plugin.</description>

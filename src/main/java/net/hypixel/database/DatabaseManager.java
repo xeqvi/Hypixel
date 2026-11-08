@@ -91,9 +91,7 @@ public class DatabaseManager {
 
         dataSource = new HikariDataSource(config);
 
-        plugin.getLogger().info(
-                "Connected to " + type.toUpperCase() + " database!"
-        );
+
     }
 
     public void createTables() throws Exception {
@@ -135,7 +133,6 @@ public class DatabaseManager {
             }
         }
 
-        plugin.getLogger().info("Database tables initialized!");
     }
 
     public Connection getConnection() throws Exception {
