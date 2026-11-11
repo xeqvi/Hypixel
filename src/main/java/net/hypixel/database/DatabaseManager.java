@@ -1,4 +1,3 @@
-
 package net.hypixel.database;
 
 import com.zaxxer.hikari.HikariConfig;

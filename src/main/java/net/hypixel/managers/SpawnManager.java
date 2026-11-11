@@ -42,8 +42,6 @@ public class SpawnManager {
             return;
         }
 
-        // Older configs only contain spawn.world, so fall back to the
-        // world's own spawn until /setspawn has been used.
         if (!section.isSet("x")
                 || !section.isSet("y")
                 || !section.isSet("z")) {
@@ -95,8 +93,6 @@ public class SpawnManager {
 
     public void teleportToSpawn(Player player) {
 
-        // Retry loading in case the world was not loaded when the
-        // plugin started (common when using a world manager).
         if (spawn == null) {
             loadSpawn();
         }
