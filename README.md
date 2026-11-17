@@ -68,7 +68,7 @@ Hypixel/
 - [ ] Build essential gameplay mechanics
 - [ ] Add multiplayer game infrastructure
 - [ ] Improve performance and stability
-- [ ? ] Expand with additional features and systems
+- [ ] Expand with additional features and systems
 
 ---
 
