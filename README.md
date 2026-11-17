@@ -68,11 +68,7 @@ Hypixel/
 - [ ] Build essential gameplay mechanics
 - [ ] Add multiplayer game infrastructure
 - [ ] Improve performance and stability
-- [ ] Expand with additional features and systems
-
-## 📜 License
-
-No license has been specified yet. Please check the repository for licensing information before redistributing or reusing the code.
+- [ ? ] Expand with additional features and systems
 
 ---
 
