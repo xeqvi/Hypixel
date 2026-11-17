@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# ⚡ Hypixel
+# Hypixel
 
 ### A Minecraft Server Core Inspired by Hypixel
 
@@ -22,7 +22,7 @@ Recreating the systems, gameplay infrastructure, and experience of one of Minecr
 
 ---
 
-## ✨ About
+## About
 
 **Hypixel** is a Minecraft server core project inspired by the architecture and gameplay experience of the Hypixel network.
 
@@ -30,61 +30,38 @@ The goal is to recreate essential server systems, build a solid gameplay infrast
 
 From player management to core server mechanics, this project aims to bring the experience together in one place.
 
-## 🚀 Features
-
-- ⚙️ **Core Systems** — A foundation for essential Minecraft server functionality.
-- 👤 **Player Management** — Infrastructure for handling players and their data.
-- 🎮 **Gameplay Infrastructure** — Building blocks for multiplayer game experiences.
-- 🧩 **Modular Development** — A codebase designed to grow with new systems and features.
-- ⚡ **Performance Focused** — Aiming for a smooth and reliable server experience.
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|:---|:---|
-| Java | Main programming language |
-| Maven | Build and dependency management |
-| Minecraft | Game platform |
-
-## 📦 Getting Started
-
-### Requirements
-
-- Java Development Kit (JDK)
-- Apache Maven
-- Git
-
-### Installation
-
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/xeqvi/Hypixel.git
-```
-
-**2. Navigate to the project**
-
-```bash
-cd Hypixel
-```
-
-**3. Build the project**
-
-```bash
-mvn clean install
-```
-
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Hypixel/
 ├── src/
 │   └── main/
+│       ├── java/
+│       │   └── net/
+│       │       └── hypixel/
+│       │           ├── commands/
+│       │           │   ├── LobbyCommand.java
+│       │           │   ├── SetSpawnCommand.java
+│       │           │   ├── SpawnCommand.java
+│       │           │   └── StuckCommand.java
+│       │           ├── database/
+│       │           │   ├── DatabaseManager.java
+│       │           │   └── SqliteSupport.java
+│       │           ├── listeners/
+│       │           │   └── PlayerListener.java
+│       │           ├── managers/
+│       │           │   ├── PlayerDataManager.java
+│       │           │   ├── ServerManager.java
+│       │           │   └── SpawnManager.java
+│       │           └── Hypixel.java
+│       └── resources/
+│           ├── config.yml
+│           └── plugin.yml
 ├── pom.xml
 └── README.md
 ```
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Develop the core server architecture
 - [ ] Implement player management systems
@@ -92,17 +69,6 @@ Hypixel/
 - [ ] Add multiplayer game infrastructure
 - [ ] Improve performance and stability
 - [ ] Expand with additional features and systems
-
-## 🤝 Contributing
-
-Contributions, ideas, and suggestions are welcome!
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a Pull Request.
-
-Let's build something awesome together!
 
 ## 📜 License
 
@@ -112,7 +78,7 @@ No license has been specified yet. Please check the repository for licensing inf
 
 <div align="center">
 
-### ⭐ Enjoying the project?
+### Enjoying the project?
 
 If you like this project, consider giving it a **star** on GitHub!
 
