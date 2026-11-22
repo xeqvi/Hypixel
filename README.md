@@ -53,6 +53,8 @@ Hypixel/
 │       │           │   ├── PlayerDataManager.java
 │       │           │   ├── ServerManager.java
 │       │           │   └── SpawnManager.java
+│       │           ├── utils/
+│       │           │   └── ColorUtil.java
 │       │           └── Hypixel.java
 │       └── resources/
 │           ├── config.yml

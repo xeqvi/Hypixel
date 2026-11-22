@@ -1,4 +1,3 @@
-
 package net.hypixel.managers;
 
 import net.hypixel.Hypixel;

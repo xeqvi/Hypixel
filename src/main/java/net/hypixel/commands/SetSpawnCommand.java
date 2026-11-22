@@ -1,5 +1,4 @@
 package net.hypixel.commands;
-
 import net.hypixel.Hypixel;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -17,12 +16,7 @@ public class SetSpawnCommand implements CommandExecutor {
     }
 
     @Override
-    public boolean onCommand(
-            CommandSender sender,
-            Command command,
-            String label,
-            String[] args
-    ) {
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
         if (!(sender instanceof Player)) {
             sender.sendMessage(
@@ -32,11 +26,8 @@ public class SetSpawnCommand implements CommandExecutor {
         }
 
         Player player = (Player) sender;
-
         Location location = player.getLocation();
-
         plugin.getSpawnManager().setSpawn(location);
-
         player.sendMessage(
                 ChatColor.GREEN
                         + "Server spawn set to your current location."
