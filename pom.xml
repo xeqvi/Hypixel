@@ -49,7 +49,7 @@
             <artifactId>slf4j-jdk14</artifactId>
             <version>1.7.30</version>
         </dependency>
-
+        // bruh
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
